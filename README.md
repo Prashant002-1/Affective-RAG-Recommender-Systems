@@ -1,6 +1,9 @@
 # ARAG (Affective-RAG)
 
-## Status
+
+> **⚠️ Note: Research in Progress**
+> 
+> This project is currently under active development as part of ongoing research. The results presented are preliminary and subject to change. The complete findings, along with the dataset and resources needed to reproduce the results, will be published upon completion of the associated research paper.
 
 This repository is a **research codebase** accompanying the Affective-RAG paper. Experiment notebooks are provided under `notebooks/` for full reproducibility.
 
