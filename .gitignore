@@ -1,0 +1,152 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb
+!notebooks/*.ipynb
+
+# Documentation (public repo keeps only README.md)
+docs/
+*.md
+!README.md
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Data directories (uncomment if you don't want to track data)
+# data/raw/
+# data/processed/
+# data/vector_db/
+
+# Models and checkpoints
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/*.h5
+models/*.pb
+models/checkpoints/
+models/*.npz
+*.pkl
+*.pickle
+.claude/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+.pytest_cache/
+coverage.xml
+*.cover
+
+# ML/AI specific
+wandb/
+mlruns/
+.neptune/
+*.tfevents
+checkpoints/
+runs/
+
+# Node.js (if used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# package-lock.json  # Usually tracked, uncomment if you don't want to track it
+yarn.lock
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+*.cache
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB
+chroma_db/
+chromadb/
+
+# Neo4j
+neo4j/
+
+# Cache files
+data/cache/
+
+# Research outputs (not published in this repo yet)
+results/
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# IDE and editor
+*.sublime-project
+*.sublime-workspace
+*.sublime-*
+
+/data/
