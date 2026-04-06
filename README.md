@@ -58,11 +58,9 @@ At a high level:
 
 ## Scoring
 
-The current retrieval logic uses a nested score:
+The current retrieval logic uses:
 
-\[
-\text{Score} = \alpha \cdot [\lambda \cdot \text{Semantic} + (1-\lambda) \cdot \text{Graph}] - (1-\alpha) \cdot \text{AffectiveRMSE}
-\]
+`Score = α · (λ · Semantic + (1 - λ) · Graph) - (1 - α) · AffectiveRMSE`
 
 Where:
 
